@@ -77,7 +77,7 @@ export default class Game extends React.Component {
           }))
         } else {
           let player = this.state.player === 1 ? 2 : 1;
-          let turn = this.state.turn === 'white' ? 'black' : 'white';
+          let turn = this.state.turn === 'green' ? 'red' : 'green';
 
           this.setState(oldState => ({
             sourceSelection: -1,
